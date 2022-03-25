@@ -37,14 +37,12 @@ public class Student {
     this.name = name;
     this.email = email;
     this.dob = dob;
-    this.age = age;
   }
 
   public Student(String name, String email, LocalDate dob) {
     this.name = name;
     this.email = email;
     this.dob = dob;
-    this.age = age;
   }
 
   public Integer getAge() {
